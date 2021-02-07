@@ -1,0 +1,21 @@
+.main-home {
+    background-image: url(../../images/background/home.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-block>a {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon>a {
+    color: #ff4514;
+}
