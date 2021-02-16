@@ -1,14 +1,23 @@
 .main-home {
     background-image: url(../../images/background/home.jpg);
-    height: 100vh;
+    background-size: cover;
+    background-position: top;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    padding-top: 250px;
+    padding-bottom: 250px;
 }
 
-.home-block>a {
+.home-block {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
 }
 
 .icon {
@@ -16,6 +25,29 @@
     align-items: center;
 }
 
-.icon>a {
+.icon a > i {
     color: #ff4514;
+    margin-right: 10px;
+}
+
+.icon > a {
+    color: #fff;
+    font-size: 12px;
+}
+
+.calendar {
+    border-right: 1px solid #ccc;
+    margin-right: 25px;
+    padding-right: 25px;
+}
+
+.home-block img {
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.home-block p {
+    width: 55%;
+    margin-bottom: 60px;
 }

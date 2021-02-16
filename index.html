@@ -8,62 +8,100 @@
     <title>Event Planner</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <link ref="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/all.css">
 
 
 </head>
 
 <body>
-    <header class="header">
+    <header class="header active">
         <div class="logo">
             <a href="#">
                 <img src="images/widgets/logo.png" alt="logo">
             </a>
         </div>
 
-        <div class="nav">
-            <div class="icons">
-                <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-google-plus-g"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-            </div>
-            <div class="button">
-                <button>BUY TICKETS</button>
-
-            </div>
+        <div class="icons">
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-google-plus-g"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
         </div>
+
+        <a href="#" class="btn">BUY TICKETS</a>
     </header>
 
     <section class="main-home container">
         <div class="icon">
-            <a href="#">
-                <i class="far fa-calendar-day"></i>
-                <p>July 21-25, 2019</p>
+            <a href="#" class="calendar">
+                <i class="fas fa-calendar-day"></i>
+                July 21-25, 2019
             </a>
             <a href="#">
                 <i class="fas fa-map-marker-alt"></i>
-                <p>New York, NY</p>
-
+                New York, NY
             </a>
         </div>
         <div class="home-block">
-            <a href="#">
-                <img src="images/widgets/event.png" alt="event">
 
-            </a>
-            <p>Our event is devoted to design and development of high-quality interfaces and increase of modern gadgets’ usability. Share your experience and learn something new at Intense Event!</p>
+            <img src="images/widgets/event.png" alt="event">
+            <p>Our event is devoted to design and development of high-quality interfaces and increase of modern gadgets’
+                usability. Share your experience and learn something new at Intense Event!</p>
+
+            <div class="btn-row">
+                <a href="#" class="btn btn-large">buy tickets</a>
+                <a href="#" class="btn btn-large border">watch video</a>
+            </div>
         </div>
 
+    </section>
+
+
+    <section class="main-about container section-padding">
+        <div class="section-top">
+            <h3>What You Will Learn</h3>
+        </div>
+        <div class="wrap">
+
+
+            <div class="template-item about-item">
+                <img src="images/widgets/about-1.png" alt="about">
+                <span>Web design basics</span>
+                <h4>Making and editing shapes</h4>
+                <p>Shapes have an endless variety of characteristics, each communicating different messages to your
+                    audience. At our event you will learn how to create and edit your own shapes.</p>
+            </div>
+
+            <div class="template-item about-item">
+                <img src="images/widgets/about-2.png" alt="about">
+                <span>Advanced masterclass</span>
+                <h4>Working with 3D graphics</h4>
+                <p>3D graphics introduce a new advantage in modern web design as well as in any design in particular.
+                    Intense Event offers its visitors a variety of 3D graphics masterclasses to try their skills in this
+                    sphere.</p>
+            </div>
+
+            <div class="template-item about-item">
+                <img src="images/widgets/about-3.png" alt="about">
+                <span>Drawing workshop</span>
+                <h4>Drawing your first design</h4>
+                <p>Intense event offers you a perfect opportunity to study basics of web design and create your first
+                    project by drawing a composition in modern design programs or improve it.</p>
+            </div>
+
+
+
+        </div>
     </section>
 
 </body>
